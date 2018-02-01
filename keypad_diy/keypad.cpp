@@ -2,8 +2,6 @@
 #include "keypad.h"
 
 
-#include "lib/FlexiTimer2.h"
-
 
 static const uint8_t row_pins[KEYPAD_ROWS] = {A0, A1, A2, A3}; 
 static const uint8_t col_pins[KEYPAD_COLS] = {10, 16, 14, 15};
